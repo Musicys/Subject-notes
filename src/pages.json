@@ -1,0 +1,114 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/hot-topic/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/all-topic/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/optional/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vipcz/vipcz",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hot-topic/detail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mypost/mypost",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/usermassge/usermassge",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/instructions/instructions",
+			"style": {
+				"navigationBarTitleText": "题材笔记-使用说明",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "题材笔记",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {}
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF2929",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/hot-topic/index",
+				"iconPath": "static/image/icon_hot.png",
+				"selectedIconPath": "static/image/icon_hot_active.png",
+				"text": "热点题材"
+			},
+			{
+				"pagePath": "pages/all-topic/index",
+				"iconPath": "static/image/icon_all.png",
+				"selectedIconPath": "static/image/icon_all_active.png",
+				"text": "全部题材"
+			},
+			{
+				"pagePath": "pages/optional/index",
+				"iconPath": "static/image/icon_optional.png",
+				"selectedIconPath": "static/image/icon_optional_active.png",
+				"text": "自选"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/image/icon_mine.png",
+				"selectedIconPath": "static/image/icon_mine_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
